@@ -1,0 +1,43 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+/* BEGIN HEADER */
+header {
+    width: 100%;
+    height: 126px;
+}
+    /*  Begin header-top */
+.header-top{
+    height: 63px;
+    width: 100%;
+    /* display: inline-block; */
+    background: linear-gradient(45deg, #FF6464,#FF7D7D );
+    position:relative;
+}
+.logo-header{
+    max-width: 232px;
+    height: auto;
+}
+.header-top .nav-bar{
+    position: absolute;
+}
+
+.header-top .nav li a{
+    list-style-type: none;
+    display: inline-block;
+}
+.header-top li{
+    display: inline-block;
+}
+    
+
+    /*  Begin header-top */
+
+.header-bottom{
+    height: 63px;
+}
+
+/* END HEADER */
